@@ -46,7 +46,9 @@ dist-ssr
 /server/middlewares/
 /server/node_modules/
 /server/utils/
-/server/controllers/
+/server/controllers/pincodeController.js 
+/server/controllers/productController.js 
+/server/controllers/settingsController.js 
 /server/models/Product.js
 
 
