@@ -76,7 +76,9 @@ Keep track of daily work in this section. Here’s a simple format to follow:
 
 | Day | Date       | Tasks Completed                                                                                                        | Learnings                                             | Issues Faced                          | Next Steps                                |
 | --- | ---------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------- | ----------------------------------------- |
-| 1   | 2025-05-01 | - Created low-fidelity wireframes for all main screens (home, login, product listing, product detail, etc.)            | Understood user flow planning and layout structure    | Iterating layout ideas took time      | Convert low-fid designs into high-fid     |
+| 1   | 2025-05-01 | - Created low-fidelity wireframes for all main screens (home, login, product listing, product detail, etc.)            | Understood user flow planning and layout structure 
+[Figma Link](https://www.figma.com/design/xAHIgkBGPkERBiUe5HQOXj/low_fid_design?node-id=0-1&t=tp6MD0SotWsmklxC-1)
+   | Iterating layout ideas took time      | Convert low-fid designs into high-fid     |
 | 2   | 2025-05-2 | - Created high-fidelity mockups in Figma (desktop + mobile views)<br>- Defined color scheme, icons, and typography     | Learned UI consistency and responsive design thinking | Deciding color combinations           | Set up project folder and repo structure  |
 | 3   | 2025-05-3 | - Created project folder structure (frontend/backend)<br>- Added README.md and `progress.md`<br>- Initialized Git repo | Clear project organization helps collaboration        | None                                  | Scaffold frontend with React and Tailwind |
 | 4   | 2025-05-4 | - Initialized React frontend using Vite<br>- Installed Tailwind CSS and created initial components                     | Practiced modern React + Tailwind setup               | Configuring Tailwind with Vite        | Design and build login/signup forms       |
