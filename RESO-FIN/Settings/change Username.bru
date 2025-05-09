@@ -1,0 +1,22 @@
+meta {
+  name: change Username
+  type: http
+  seq: 1
+}
+
+put {
+  url: {{backend_url}}/change-username
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWI1YzEyZWY2NGM1ZmJmODMxMWM4MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY5NjgxMywiZXhwIjoxNzQ2NzgzMjEzfQ.9XrTNWYr7Cr3LoKxWqSHCKzZE7NPe4ak2pAkcZM22Mk
+}
+
+body:json {
+  {
+    "previousUsername":"Priyanshu jain",
+    "newUsername":"priyanshu jain "
+  }
+}

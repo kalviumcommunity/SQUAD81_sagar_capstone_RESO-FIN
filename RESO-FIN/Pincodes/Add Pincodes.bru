@@ -1,0 +1,26 @@
+meta {
+  name: Add Pincodes
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{backend_url}}/add-pincodes
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWI1YzEyZWY2NGM1ZmJmODMxMWM4MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY4MzUyNCwiZXhwIjoxNzQ2NzY5OTI0fQ.fASpnSC49_bvEH1v3gRkbuq-QGArIH7ySs-pyqrn7iU\
+}
+
+body:json {
+  {
+    "pinocodes" : [
+      {
+        "pincodes" :400324
+      }
+    ]
+  
+  }
+}

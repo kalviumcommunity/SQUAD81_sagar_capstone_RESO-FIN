@@ -1,0 +1,23 @@
+meta {
+  name: Admin Login
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{backend_url}}/admin-login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  
+    "username" : "Priyanshu jain",
+    "password" : "12345678"
+    
+  }
+  
+  
+  
+}

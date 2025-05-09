@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "reso-fin",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
