@@ -69,9 +69,11 @@ const login = async (req,res) =>{
 
 
 
-    }catch (error){
-        return res.status(500).json({success: false,message: error.message});
+    }catch(error){
+        return res.status(500).json({success: false , message: "Internal server issue "+ error.message})
+
     }
+    
 }
 
 const adminSignup = async (req,res) => { 
