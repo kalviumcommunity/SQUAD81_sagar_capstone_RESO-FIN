@@ -26,11 +26,25 @@ dist-ssr
 
 
 /client/node_modules/
-/client/src/components/
-/client/components.json
-/client/vite.config.js
-/client/src/App.jsx
-/client/src/constants
+/client/src/components/provider
+/client/src/components/utils
+/client/src/components/custom/Allproduct.jsx
+/client/src/components/custom/Analytics.jsx
+/client/src/components/custom/AppSidebar.jsx
+/client/src/components/custom/CartDrawer.jsx
+/client/src/components/custom/chart1.jsx
+/client/src/components/custom/Footer.jsx
+/client/src/components/custom/HeaderDisplay.jsx
+/client/src/components/custom/Navbar.jsx
+/client/src/components/custom/Settings.jsx
+/client/src/components/custom/ModeToggle.jsx
+
+
+# /client/components.json
+# /client/vite.config.js
+# /client/src/App.jsx
+# /client/src/constants
+
 
 
 
